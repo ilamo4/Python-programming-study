@@ -1,251 +1,170 @@
-### 학번:              이름: 박소은은
+# a=10
 
+# if a>1:
+#     print(a)
+#     print('1보다크다')
+# print('끝')
 
-### 예시1 ###
-### coding here ###
+# x='hello'
+# y='hello'
 
+# if x==y :
+#     print('정답')
 
-# for i in range(5):
-#     print('***********')  or
-#     print('*'*10)
-
-# for i in range(5):
-#     print(i)
-    # print('hi')
-
-#range 안의 숫자만큼 i라는 것을 5번 반복하자. i=0 , print 안에 i를 넣으면 i에 0,1,2,3,4가 한 줄씩 차례대로 출력됨.
-#range()안의 숫자가 1개만 있으면 0부터 그 횟수만큼 반복. range(3,5)는 3,4만 나옴. range(5,101)이면 5부터 100까지 출력.
-#range(1,10,2)는 2씩 건너뛰고 1부터 9까지 출력하라는 뜻.
-#range 안에는 원래 숫자 3개 씌여있지만 원래 1칸씩 건너뛰니까 맨 뒤에것 생략. 그리고 ㅐ부터 시작하면 맨 앞에것 생략.
-
-
-# cnt = 0
-# for i in range(3,10):
-#     print(i)
-#     cnt += 1 ### cnt = cnt+1 (복합대입연산자)
-
-# print(cnt)
-
-
-### 예시2 ###
-# for i in range(1, 6) :
-#     print('*'*i)
-
-# for i in range(6):
-#     print ('*'*(i+1))
-
-
-
-# for i in range(10):
-#     if i % 2 == 0:
-#         print (i)
-
-
-### 예시3 ###
-
-# for i in range(6) :
-#     print('*'*(5-i))
-
-
-
-### 예시4 ###
-
-# for i in range (1,31) :
-#     if i % 3 == 0 :
-#         print(i)
-
-# p11
-# cnt =0
-# for i in range(1,11):
-#     cnt += 1
-# print(cnt)
-
-# res = 0
-
-# for i in range(1,11):
-#     res = res * i
-# print(res)
-
-# res = 0
-
-# for i in range(1,11):
-#     res = res + i
-
-# res = 0 
-
-# for i in range(1,11):
-#     if i % 2 == 0:
-#         res += i
-
-# print(res)
-
-# # for i in range(1,11,2): 홀수 구할 때
-# # for i in range(0,11,2): 짝수 구할 때
-# # 그래도 반복문 안에 if 절 넣어서 코드 짜자.
-
-
-### 예시5  팩토리얼 값 구하기 ###
-
-# num = int(input('2 이상의 숫자를 입력해 주세요 : '))
-
-### coding here ###
-
-    
-### 예시6 ###
-
-# i = 0
-# dan = 0
-
-# dan = int(input('구구단 몇 단을 계산할까요? : '))
-
-# for i in range(1,10)   :
-#     print("%d x %d = %d"%(dan,i,dan*i))
-
-
-# for i in range(5):
-#     for j in range(3):
-#         print(i,j)
-
-
-
-### 예시7 ###
-
-# for i in range(2,10):
-#     for j in range(1,10):
-#         print('%d x %d = %d'%(i,j,i*j))
-
-##############################################################################################
-
-# for i in range(5):
-#     print(i)
-
-# i=0
-# while i<5:
-#     print(i)
-#     i += 1
-
-# i=0
-# while i<5:
-#     print('*'*10)
-#     i = i+ 1
-
-# res = 0
-
-# for i in range(1,11):
-#     res = res + i
-
-
-# res =0
-# i =0
-# while i<11:
-#     res +=i
-#     i += 1
-# print(res)
-
-# res =0
-# i =0
-# while i<11:
-#     i += 1
-#     res +=i
-# print(res)
-
+#1번 문제 
 
 # password = 'data'
-# answer = input('비번 :')
-# if answer == password:
-#     print("정답")
+# answer = input('비밀번호를 입력해주세요: ')
+# if(password == answer): print('correct')
+
+#2번 문제
+
+# num = int(input('숫자 하나 입력해주세요: '))
+# if num % 2 == 0 :
+#     print('짝수')
+#홀수, 짝수 판별할 때는 2로 나눠서 나머지가 1이냐 0이냐로 판별.
 
 
-# password = 'data'
-# answer =''
-# while answer != password:
-#     answer = input('비번 :')
-# print("정답")
+#3번 문제
+
+# math = 83
+# science = 90
+# if math >=80 and science >=80:
+#     print('합격')
+
+#4번 문제
+
+# math = 83
+# science = 90
+# if math < 85 or science < 85:
+#     print('탈락')
+
+#5번 문제 (공약수, 공배수 문제) (5와 7의 공배수이면 35의 배수임을 출력하라)
+# num = int(input('숫자 입력: '))
+# if num % 5 == 0 and num % 7 == 0:
+#     print('35의 배수')
 
 
-### 예시8 ###
-### coding here ###
+#(10과 15의 공약수)
+# num = int(input('숫자 입력: '))
+# if 10 % num == 0 and 15 % num == 0:
+#     print('정답')
 
-# i =0
-# while i<5:
-#     print('*'*10)
-#     i +=1
-
-# i =0
-# while i<10:
-#     print(i)
-#     i += 1
-#     if i>5 : break
-
-
-# for i in range(3,10):
-#     print(i)
-#     if i>8: break
-
-
-# for i in range(1,31):
-#     if i % 3 !=0:
-#         continue
-#     print(i)
-
-# i=1
-# while i <31:
-#     if i % 3 !=0:
-#         i += 1
-#         continue
-#     print(i)
-#     i += 1
-
-
-### 예시9 ###
-### coding here ###
-
-# for i in range(1,100):
-
-# res=0 
-# i=1
-# while i<101:
-#     res +=1
-#     i+= 1
-# print(res)
+# a=1
+# if a > 5:
+#     print('5보다크다')
+# else:
+#     print('5보다작다')
+# print('끝')
 
 
 
-### 예시10 ###
-### coding here ###
+# if a % 2 ==0:
+#     print('짝수')
+# if a % 2 ==1:
+#     print('홀수')
 
-############ my way
+# 바로 위의 질문을 안 하기 위해서 else를 사용한다.--->
 
-# for i in range(1,75):
-#     if 30 % i ==0  and 75 % i ==0:
-#         print(i)
-# 이건 30, 75의 공약수를 구하는 과정.
-
-# res=1
-# i=1
-# while i<30:
-#     30 % i ==0  and 75 % i ==0
-# print(i)
+# x = int(input("숫자를 입력해주세요: "))
+# if x % 2 == 0:
+#     print('짝수입니다')
+# else :
+#     print('홀수입니다')
 
 
-##################################################################################
+#6번 문제
 
-# res =3
-# if 30 % res ==0 and 75 % res ==0:
-#     print('30과 75의 공약수')
+# math = 83
+# science = 90
+# if math > science:
+#     print ('math')
+# else:
+#     print('science')
+
+#7번 문제
+# num= int(input('숫자 입력: '))
+# if num % 2 ==0 and num >10:
+#     print('x')
+# else:
+#     print('o')
 
 
+#8번 문제 어렵다
 
-# res =1
-# for i in range(1,31):
-#     if 30 % i ==0 and 75 % i ==0:
-#         res = i
-# print(res)
+# year = int(input('연도를 입력하세요: '))
+# if (year % 4 ==0 and year % 100 != 0) or (year % 400 == 0) :
+#     print('%d년은 윤년입니다.'%year)
+# else:
+#     print('%d년은 윤년이 아닙니다'%year)
 
-res =1
-i =1
-while i<31:
-     if 30 % i ==0 and 75 % i ==0:
-         res = i
-    i += 1
-print(res)
+
+#elif문 예제 1
+
+# if a > 3: 
+#     print ('3보다작다')
+# elif a < 0:
+# #     print('0보다작다')
+# else:
+#     print('0보다 크고 3보다 작다')
+
+#elif문 예제 2 (높은 금액, 큰 숫자부터 코드 짜기기)
+
+# score = int(input("점수를 입력 ==> "))
+# if score >= 90 :
+#    print("A")
+# elif score >= 80 :
+#    print("B")
+# elif score >= 70 :
+#    print("C")
+# elif score >= 60 :
+#    print("D")
+# else :
+#    print("F")
+#    print("학점입니다.")
+
+
+#8번 문제 빈출!
+
+# price = int(input('주문 금액: '))
+# delivery_fee = 0
+
+# if price >= 50000:
+#     print('배달비 무료')
+
+# elif price >= 30000:
+#     delivery_fee = price * 0.05
+
+# elif price >= 10000:
+#     delivery_fee = price * 0.1
+
+# else:
+#     print('배달 불가')
+
+# print('배달비는 %d원입니다.'%delivery_fee)
+
+
+#9번 문제
+
+# speed =int(input('주행속도: '))
+
+# if speed > 100:
+#     print('면허정지')
+# elif speed >= 81:
+#     print('과속')
+# elif speed >= 51:
+#     print('속도를 줄이세요')
+# else:
+#     print('정상')
+
+
+# 10번 문제
+
+# x=42
+# user_number = int(input('1부터 100 사이의 숫자를 입력하세요: '))
+# if user_number < x:
+#     print('더 큰 숫자를 입력하세요!')
+# elif user_number > x:
+#     print('더 작은 숫자를 입력하세요!')
+# else:
+#     print('정답입니다! 축하합니다!')
