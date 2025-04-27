@@ -22,9 +22,11 @@
 #따옴표 안의 %
 #입니다 등 띄어쓰기 정확하게 하기
 
-print ('수학점수 %d,영어점수 %d' %(90,80))
+# print ('수학점수 %d,영어점수 %d' %(90,80))
 
-print('%d+%d = %d' %(200,100,200+100))
+# print('%d+%d = %d' %(200,100,200+100))
+
+# print('%d+%d = %d' %(200,100,200+100))
 # %d는 정수만 가능 %f는 소수점 표현 가능
 
 # a=3
@@ -101,12 +103,12 @@ print('%d+%d = %d' %(200,100,200+100))
 # x=90
 # y=float(x)
 
-print('## 택배를 보내기 위한 정보를 입력하세요. ##')
-name = input('받는 사람:')
-addr = input('주소:')
-weight = input('무게(g):')
-price = weight *5
+# print('## 택배를 보내기 위한 정보를 입력하세요. ##')
+# name = input('받는 사람:')
+# addr = input('주소:')
+# weight = input('무게(g):')
+# price = weight *5
 
-print(' ** 받는 사람 ==> %s' %name)
-print(' ** 주소 ==> %s' %addr)
-print(' ** 배송비 ==> %d원' %price)
+# print(' ** 받는 사람 ==> %s' %name)
+# print(' ** 주소 ==> %s' %addr)
+# print(' ** 배송비 ==> %d원' %price)

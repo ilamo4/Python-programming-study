@@ -31,7 +31,7 @@
 # print ('수학점수는 %s, 파이썬 점수는 %s입니다.'%(math,python))
 # print('그리고 평균점수는 %f점 입니다.'%mean_score)
 
-#end, sep 중요. int는 문자열로 입력받는다. #debug. F9누르면 좌측에 빨간불 들어옴. 
+# end, sep 중요. int는 문자열로 입력받는다. #debug. F9누르면 좌측에 빨간불 들어옴. 
 
 # x = '100'
 # y = '100.123'
@@ -49,8 +49,8 @@
 # r=int(input('반지름 입력:'))
 # length=2*pi*r
 # area=pi*r**2
-# print('원의 둘레는 %f, 넓이는 %f 입니다.'%length, area))
-
+# print('원의 둘레는 %f, 넓이는 %f 입니다.'%(length, area))
+ 
 
 # k='안녕'
 # k += '하세요'
