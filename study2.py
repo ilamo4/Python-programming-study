@@ -1,3 +1,43 @@
+#2주차 스터디 warm-up (백준 10869)
+
+# 두 자연수 A, B의 사칙연산을 하는 문제이다. (1 ≤ A, B ≤ 10,000)
+# Python에서 입력받을 때는 input 함수를 사용한다. 
+# 그리고 A, B 각각에 입력받아야 하므로 split 함수를 사용한다. 
+# 이 문제에서는 기본형인 input().split() 에 자연수를 받아야 하므로 map에 정수형 술연산자를 이용하여 
+# 코드를 짜고 그 결과를 한줄씩 출력하고자 구분자(sep)와 이스케이프 문자 중 줄 바꿈 문자(\n)을 사용하였다.
+
+
+#방법1
+
+A,B = input().split()
+A = float(A)
+B = float(B)
+
+print(A+B)
+print(A-B)
+print(A*B)
+print(A//B)
+print(A%B)
+
+#방법2
+
+num = input().split()
+A = int(num[0])
+B = int(num[1])
+
+print(A+B)
+print(A-B)
+print(A*B)
+print(A//B)
+print(A%B)
+
+#방법3
+
+A, B = map(int, input().split())
+print(A + B, A - B, A * B, A // B, A % B, sep="\n")
+
+
+#2주차 스터디 문제풀이
 #1
 for i in range(1,11):
     print('%d'%i, end=' ')

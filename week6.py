@@ -60,12 +60,12 @@ greetings = ['안녕','니하오','하이','곤니찌와','올라','싸와디캅
 # for i in a:
 #     if i<30 and i>10:
 #         res += 1
-
+  
 # print("원소의 개수는 %d 입니다"%res)
 
 
 
-## 4번 문제 ## 4번 다시 풀기기
+## 4번 문제 ##
 #way1
 
 # name = ['hello','trip','pho','airplane','zebra']
