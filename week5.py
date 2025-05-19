@@ -184,10 +184,10 @@
 
 
 ##while문으로 코드 짜면
-# res =1
-# i =1
-# while i<31:
-#      if 30 % i ==0 and 75 % i ==0:
-#          res = i
+# res = 1
+# i = 1
+# while i < 31:
+#     if 30 % i == 0 and 75 % i == 0:
+#         res = i
 #     i += 1
 # print(res)

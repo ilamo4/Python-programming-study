@@ -123,7 +123,6 @@ def pickup_even(items):
 
 pickup_even([3, 4, 5, 6, 7, 8])
 
-
 ## 27page
 def find_character(string,k):
    print(string[k-1])
@@ -132,3 +131,12 @@ def find_character(string,k):
 find_character("computer",2) # o 출력
 find_character("happy",1) # h 출력
 find_character("data",3) # t 출력
+
+#################
+
+함수 정의할 떄 def 함수이름(매개변수):
+   실행할 코드
+   return 반환값
+
+
+
