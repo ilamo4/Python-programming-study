@@ -1,0 +1,7 @@
+python is a versatile programming language.
+Many developers use python for machine learning and data science.
+Some prefer python because it is beginner-friendly.
+I think python is one of the best tools for automation.
+Learning python opens up many career opportunities.
+python can be used in backend development too.
+Overall, python is everywhere.
